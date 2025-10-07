@@ -7,52 +7,92 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
-	<!--<script src="script.js"></script>-->
-</head>
-
-<body>
 	<div class="header">
 		<h1>Welcome to my Web </h1>
 		<p>this is a paragraph</p>
 	</div>
 	<!--Puede haber hasta h6-->
-	<div class="frame">
-		<h2>Un frame</h2>
-		<p>un frame <br><br><br>que salta</p>
-	</div>
-<main>
-<div class="listaul">
-	<!--Lista no ordenada-->>
-	<ul>
-		<li>Elemento 1</li>
-		<li>Elemento 2</li>
-		<li>Elemento 3</li>
-	</ul>
-</div>
+	<!--target="_blank" crea una nueva tab en el link de enlace-->
+	<nav>
+		<ul>
+			<li><a href="https://www.google.com" target="_blank" title="enlace a google">Google</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<!--<script src="script.js"></script>-->
+</head>
 
-<div class="listaul">
-	<!--Lista ordenada-->>
-	<ol>
-		<li>Elemento 1</li>
-		<li>Elemento 2</li>
-		<li>Elemento 3</li>
-	</ol>
-</div>
-<aside>
-<div class="listaanidada">
-	<!--Lista ordenada-->>
-	<ol>
-		<li>Elemento 1</li>
-			<ul>
-				<li>Subelemento 1</li>
-				<li>Subelemento 2</li>
-				<li>Subelemento 3</li>
-			</ul>
-		<li>Elemento 2</li>
-		<li>Elemento 3</li>
-	</ol>
-</div>
-</aside>
-</main>
+<body>
+
+	<main>
+		<div class="frame">
+			<h2>Un frame</h2>
+			<p>un frame <br><br><br> con espaciado</p>
+		</div>
+		<!--Semantic etiquettes [<section> <aside> -->
+
+		<section>
+			<article>
+				<!--imagen-->>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrv2MuVq0XtyReTNngmoy7CgDvD_2MorjeWA&s"
+					alt="logo github" width="300" height="200">
+				<video src="https://v.ftcdn.net/14/88/94/60/700_F_1488946010_IQjPyIvCcsOznarY1o80MjnplAVsBQV2_ST.mp4"
+					controls="True" width="300" height="200">
+					>
+			</article>
+		</section>
+
+		<div class="frame">
+			<section>
+				<article>
+					<!--Lista no ordenada-->>
+					<ul>
+						<li>
+							<h1>Lista desordenada</h1>
+						</li>
+						<li>Elemento ul 1</li>
+						<li>Elemento ul 2</li>
+						<li>Elemento ul 3</li>
+					</ul>
+				</article>
+			</section>
+		</div>
+		<div class="frame">
+			<!--Lista ordenada-->>
+			<ol>
+				<li>
+					<h1>Lista ordenada</h1>
+				</li>
+				<li>Elemento 1 ol</li>
+				<li>Elemento 2 ol</li>
+				<li>Elemento 3 ol</li>
+			</ol>
+
+		</div>
+		<aside>
+			<div class="frame">
+			<!--Lista ordenada-->>
+			<ol>
+				<li>
+					<h1>Lista Anidada<h1>
+				</li>
+				<ul>
+					<li>Subelemento 1 ul</li>
+					<li>Subelemento 2 ul</li>
+					<li>Subelemento 3 ul</li>
+				</ul>
+				<li>Elemento 2 ol</li>
+				<li>Elemento 1 ol</li>
+			</ol>
+		</aside>
+		</div>
+	</main>
 </body>
+<div class="header">
+		<footer>
+			<p>Mi pie de pagina</p>
+		</footer>
+</div>
 </html>
