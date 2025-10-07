@@ -16,9 +16,10 @@ body {
     flex-direction:column; 
     border: none;
     block-size: auto;
-    background: linear-gradient(to top,#83eef1, #e96cca);
+    background: linear-gradient(to top,#83eef1, #ffffff);
     border-radius: 12px;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(102, 102, 102, 0.425);
 }
 
 .frame{
@@ -27,7 +28,8 @@ body {
     border: none;
     border-radius: 12px;
     background: linear-gradient(45deg, #ffffff, transparent),
-            linear-gradient(120deg, #463885, transparent);
+            linear-gradient(120deg, #83eef1, transparent);
+    box-shadow: 10px 10px 10px rgba(102, 102, 102, 0.425);
 }
 
 .frame:hover{
