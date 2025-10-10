@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-    
+    <!--git-token: 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-->
 	<header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,11 @@
         <img src="favicon.png" alt="Lorem Ipsum y su foto" width="400">
         <figcaption>Ejemplo de imagen con pie.</figcaption>
     </figure>
-    <section id="Sobre mi"> <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+
+    <fieldset>
+        <legend>sobre Loremp y sus habilidades</legend>
+    
+        <section id="Sobre mi"> <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
         standard dummy text ever since the 1500s, when an unknown 
         printer took a galley of type and scrambled it to make a type specimen book.  </section>
     
@@ -32,21 +36,74 @@
         <li>Para simular descripccion</li>
         <li>Habilidad 3</li>
     </ol>
+    
 
+    <div id="info_habilidades">
     <section id="Habilidades"> 
         <ul>
             <li>dar contenido al html</li>
             <li>para crear el esquema</li>
             <li>se pone chevere con css</li>
         </ul>
+
+    </div>
     </section>
+
+</fieldset>
+
+    <fieldset>
+        <legend>mis proyectos</legend>
+    <div id="info_block">
     <section id="Proyectos">  
-        <label for="proyecto1">CSS</label>
+        <label for="proyecto1">ya visto</label>
         <input type="checkbox" id="proyecto1" name="proyecto1" value="proyecto1">
-    </label>
-    </section>
-    <section id="Contacto">  </section>
+    
+            <a href="https://github.com/Santyamaya98/Granja_Gallega" target="blank">Proyecto 1</a>
+       
+        <br>
+        Esto es un proyecto con django CSS y html si ya lo viste dale al checkmark 
+        </label>  
+        <br>
+        <label for="proyecto2">ya visto</label>
+        <input type="checkbox" id="proyecto2" name="proyecto2" value="proyecto2">
+    
+            <a href="https://github.com/Santyamaya98/curriculum_vitae" target="blank">CV</a>
+        </label> 
+        <br>
+        <label for="check_circ">ya lo vi</label>
+        Esto es una hoja de vida con python y django y tailwind
+        <input id="check_circ" type="radio" name="otro proyecto" value="ya lo vi">
+        ya lo vi 
+        </label>
+    </div>       
+    </fieldset>
+
+</section>
+<div id="info_block">
+    <fieldset>
+        <legend>Un formulario para que dejes tu contacto</legend>
+    <section id="Contacto">Que tal si me dejas tu contacto</section>
+    <form id="form_contact"  method="post">
+    <input typle="name" placeholder="tu nombre completo" action="post" nonvalidate>
+    <br>
+    <p>Dejame tu email</p>
+    <input type="email" placehoder="example@example">
+    <br>
+    <button type="button"> 
+        <a href="#">enviar</a>
+    </button>
+    </form>
+</div>
+</fieldset>
     </main>
-    <footer> </footer>
+
+    <footer> 
+        <blockquote cite="https://es.wikipedia.org/wiki/Lorem_ipsum">
+        <p>Puede saber mas de lorem ipsum en el siguiente link</p>
+        <p>Fuente: Wikipedia0</p>
+        <p>copy right &lt 2025 &gt</p>
+        <a href="https://es.wikipedia.org/wiki/Lorem_ipsum">Lorem ipsum - Wikipedia, la enciclopedia libre</a>
+        </blockquote>
+    </footer>
     </body>
 </html>
