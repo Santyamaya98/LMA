@@ -1,0 +1,74 @@
+/*    "*" select all   */
+/*1rem = 16px by default it can be changed*/
+*{
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: rgb(255, 255, 255);
+    /* Dado a la herencia todo el texto ddentro de body va a heredar las siguintes caracteristicas */
+    text-align: center;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+/*    "*" !important hace que la propiedad sea reflejada en el navegaor sin dar orden de prioridad   */
+
+.container{
+    margin: 2rem;
+    background: #633a60;
+    background: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 100%);
+   
+}
+
+.parrafo p{
+    margin: 2rem;
+    padding: 1rem;
+    color: #ffffff;
+    background: #633a60;
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+
+}
+
+#info{
+    margin: 2rem;
+    padding: 1rem;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #fbc2eb 0%, #a6c1ee 100%);
+    
+}
+
+.caja{
+    border: 1px solid black;
+    color :rgb(0, 0, 0);
+    padding: 40px;
+    margin: 32px;
+    background: conic-gradient(rgb(228, 151, 238) 30deg, rgb(166, 91, 236) 270deg, rgb(228, 130, 238) 120deg);
+}
+
+img{
+    border: none;
+    padding: 5px;
+    background: conic-gradient(rgb(216, 216, 216) 30deg, rgb(148, 76, 214) 270deg, rgb(148, 77, 156) 120deg);
+    border-radius: 100px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 5s;
+}
+
+.img_jump:hover{
+    transform: translateY(-20px);
+    transition: all 2.5s;
+}
+
+.down_img{
+    transform: translateX(-2px);
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
